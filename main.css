@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #0d87f2;
+}
+
+.title,
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin-top: 1em;
+}
+
+.title,
+.location {
+  font-size: clamp(1.4em, 8vw, 2.6em);
+  margin-top: 1em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  margin: 1em 0 0.5em 0;
+}
+
+.icon {
+  font-size: clamp(4.5em, 5vw, 7em);
+  margin: 0 0.7em 0.3em 0;
+}
+
+.description {
+  font-size: clamp(1.4em, 8vw, 2em);
+}
+
+.details {
+  display: grid;
+  justify-content: center;
+  margin-top: 1.3em;
+  text-indent: 20px;
+}
+
+.location,
+.temperature {
+  font-size: clamp(1.4em, 10vw, 2.6em);
+}
+
+.details {
+  font-size: clamp(1em, 6vw, 1.5em);
+}
+
+.input {
+  width: clamp(170px, 45vw, 300px);
+  border: none;
+  outline: none;
+  color: black;
+  padding-left: 10px;
+}
+
+button {
+  background-color: #ffff;
+  border: none;
+  outline: none;
+}
+
+.fa-search {
+  color: #0d87f2;
+  margin-right: 5px;
+  margin-top: 4.5px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title class="title">What's the weather?</title>
+  </head>
+  <body>
+    <h1 class="title">What's the weather?</h1>
+    <form action="/">
+      <input
+        type="text"
+        placeholder="Search your city"
+        class="input"
+        name="city"
+      />
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="main">
+      <h2 class="location">Location</h2>
+      <i class="fas fa-cloud-sun icon"></i>
+      <h3 class="temperature">18°C</h3>
+      <p class="description">Description</p>
+    </div>
+    <div class="details">
+      <p class="pressure">
+        Pressure: <span class="pressureValue">0 </span>mmHg
+      </p>
+      <p class="humidity">Humidity: <span class="humidityValue">0 </span>%</p>
+      <p class="visibility">
+        Visibility: <span class="visibilityValue">0 </span>m
+      </p>
+      <p class="windSpeed">
+        Wind's Speed: <span class="windValue">0 </span>km/h
+      </p>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
